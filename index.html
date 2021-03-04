@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>Carlos Higon</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maxium-scale=1.0,minium-scale=1.0">
+    <link rel="icon" href="imgs\icono_2.ico" class="icon">  
+    <title>Carlos Higon</title>
     <link rel="stylesheet" href="css\estilo.css"></link>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
-   </head>
+   </head>  
 
       <body>
-      
+        <nav class="menu">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Yo</a></li>
+                <li><a href="">Lenguajes</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+            <div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i> Menu
+            </div>
+        </nav>
         <section class="box">
 
-            <img src="imgs\img.jpg" width="170" alt="" class="box-img">
+            <img src="C:\Users\13214\Desktop\proyecto\imgs\img.jpg" width="170" alt="" class="box-img">
             <h1>Carlos Andres Higon Pino</h1>
             <h2>Estudiante de Telematica en la Universidad Del Cauca</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -28,6 +40,12 @@
         </ul>
 
         </section> 
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script>
+            $(".hide").on('click',function(){
+                $("nav ul").toggle('slow');
+            })
 
+        </script>
       </body>
         </html>
