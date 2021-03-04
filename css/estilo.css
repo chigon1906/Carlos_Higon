@@ -8,7 +8,7 @@
 	.icon{
 		color: #A349A4;
 	}
-	.titulo{
+	header{
 	font-family: 'Century Gothic', sans-serif
 	idth: 500px;
 		background: rgba(0, 0, 0, .7);
@@ -17,8 +17,7 @@
 		padding: 20px;
 		color: white;
 		text-align: center;
-		
-}	
+	}	
 
 
 	body{
